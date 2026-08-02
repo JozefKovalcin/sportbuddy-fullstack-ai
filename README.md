@@ -4,11 +4,11 @@
 
 SportBuddy is a full-stack web application for organizing local sports activities. Users can discover nearby games, create activities, manage participation, chat with other players, review participants and venues, and use AI-assisted search or activity creation in Slovak.
 
-This is a team portfolio/student project built as a small monorepo with separate Next.js frontend and backend applications, PostgreSQL managed by Prisma, and Docker Compose for local development.
+This is a team project built as a small monorepo with separate Next.js frontend and backend applications, PostgreSQL managed by Prisma, and Docker Compose for local development.
 
 ## Competition Context
 
-SportBuddy reached the Top 20 at Zive IT projekty 2026, a Slovak student project competition. The project is presented here as a practical full-stack application with real user flows, external integrations, and Dockerized local setup.
+SportBuddy reached the Top 20 at Zive IT projekty 2026, a Slovak student project competition. It combines real user flows, external integrations, and a Dockerized local setup.
 
 ## Features
 
@@ -126,38 +126,19 @@ pnpm run dev
 
 For local non-Docker development, set `DATABASE_URL` to a reachable PostgreSQL instance and keep frontend/backend ports aligned with `.env`.
 
-## Screenshots
-
-Screenshot placeholders are tracked in [docs/screenshots/](docs/screenshots/). Recommended screenshots:
-
-- activity discovery and filtering,
-- activity detail with participants,
-- activity creation flow,
-- chat or notification view,
-- mobile/PWA view if available.
-
 ## My Contribution
 
-This was a team project developed for Zive IT projekty 2026. My main contributions included working on the application structure, database-backed features, local development setup, and selected frontend/backend functionality.
+My work focused on application structure, database-backed features, local development setup, and selected frontend and backend functionality:
 
-Contributed to the Next.js/TypeScript application structure and reusable full-stack project organization.
-Worked with Prisma/PostgreSQL data modeling and database-backed user/activity flows.
-Helped implement or integrate activity discovery, activity creation, user profiles, and related application logic.
-Worked with Docker-based local setup to make the project easier to run and test consistently.
-Participated in preparing the project for the Zive IT projekty 2026 competition, where the project reached the Top 20.
-
-## What This Demonstrates for Employers
-
-- Building a multi-service TypeScript application with frontend, backend, database, auth, and external APIs.
-- Modeling a relational domain with Prisma migrations and practical API boundaries.
-- Implementing production-shaped user flows: authentication, profiles, notifications, chat, ratings, password reset, and uploads.
-- Dockerizing a development environment for consistent onboarding.
-- Integrating AI features while keeping manual app flows available when API keys are missing.
-- Communicating team-project scope honestly.
+- Contributed to the Next.js/TypeScript application structure and reusable full-stack project organization.
+- Worked with Prisma/PostgreSQL data modeling and database-backed user and activity flows.
+- Helped implement or integrate activity discovery, activity creation, user profiles, and related application logic.
+- Worked on the Docker-based local setup used to run and test the project consistently.
+- Participated in preparing the project for Zive IT projekty 2026.
 
 ## Security Notes and Limitations
 
-This is a portfolio/student project, not an audited production service. The repository intentionally keeps example values in `.env.example`, but real API keys, VAPID keys, OAuth secrets, uploaded user files, and production credentials must remain outside Git.
+The application has not undergone an independent production security review. The repository intentionally keeps example values in `.env.example`, but real API keys, VAPID keys, OAuth secrets, uploaded user files, and production credentials must remain outside Git.
 
 Runtime uploads are ignored by Git and should be stored in durable object storage for a production deployment. Production deployment would also need stronger secret management, monitoring, rate limiting, backup strategy, and provider-specific hardening.
 

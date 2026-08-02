@@ -2,7 +2,7 @@
 
 ## Project Status
 
-SportBuddy is a portfolio/student project. It is not an audited production service.
+SportBuddy has not undergone an independent production security review.
 
 ## Supported Versions
 

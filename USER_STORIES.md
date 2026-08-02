@@ -764,7 +764,7 @@ aby som hral s ľuďmi na mojej úrovni
  - ⏸️ Schedule compatibility (calendar icon)
  - ⏸️ Play style match (competitive/casual)
  - ⏸️ Common sports (badge list)
-- ⏸️ "Prečo sme kompatibilní" text explanation (AI-generated)
+- ⏸️ AI-generované textové vysvetlenie „Prečo sme kompatibilní“
 
 ### Email Digest
 - ⏸️ Weekly "Best matches" email template
